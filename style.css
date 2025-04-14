@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(IMG_0808.JPG) no-repeat center 0px;
+    background-size: cover;
+    image-rendering: auto;
+}
+.box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
+.box img {
+    width: 200px;      /* 图片宽度（可调） */
+    height: 200px;     /* 图片高度（可调） */
+    object-position: center 20%;
+    object-fit: cover; /* 保持图片比例并填满框 */
+    border-radius: 50%; /* 关键：圆形 */
+    border: 3px solid white; /* 可选：加个边框更好看 */
+    margin-top: 50px;
+  }
+  .hox h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
