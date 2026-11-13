@@ -18,7 +18,7 @@ body{
 .box img {
     width: 200px;      /* 图片宽度（可调） */
     height: 200px;     /* 图片高度（可调） */
-    object-position: center 20%;
+    object-position: center 0%;
     object-fit: cover; /* 保持图片比例并填满框 */
     border-radius: 50%; /* 关键：圆形 */
     border: 3px solid white; /* 可选：加个边框更好看 */
