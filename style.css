@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(IMG_0808.JPG) no-repeat center 0px;
+    background: url(background.png) no-repeat center 0px;
     background-size: cover;
     image-rendering: auto;
 }
